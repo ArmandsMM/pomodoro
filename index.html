@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pomodoro</title>
     <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body onload="count()">
-    <header>Pomodoro</header>
-    <div id="counter"></div>
+    <div id="flex-container">
+      <h1>Pomodoro</h1>
+      <ul>
+        <li>
+          to change initial counter value add querry parameter <b>?i=100</b> at
+          the end of the url
+        </li>
+        <li>
+          just press <b>F5</b> if you want to restart the timer in mid-run
+        </li>
+      </ul>
+      <div id="counter"></div>
+    </div>
   </body>
 </html>

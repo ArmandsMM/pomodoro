@@ -1,0 +1,19 @@
+body {
+  background-color: #444444;
+  color: whitesmoke;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+#counter {
+  font-size: xx-large;
+}

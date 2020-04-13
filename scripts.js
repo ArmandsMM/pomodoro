@@ -1,4 +1,6 @@
-var initialStartTime = 10;
+var initialStartTime =
+  new URL(window.location.href).searchParams.get("i") || 10;
+
 var i = initialStartTime;
 var interval;
 
@@ -15,5 +17,5 @@ function count() {
 }
 
 function showAlert() {
-  return confirm("time is up!");
+  return confirm("time is up!\ndo you want to restart?");
 }
