@@ -1,5 +1,5 @@
 var initialStartTime =
-  new URL(window.location.href).searchParams.get("i") || 10;
+  new URL(window.location.href).searchParams.get("i") || 1 * 60 * 60; // 1hour
 
 var i = initialStartTime;
 var interval;
