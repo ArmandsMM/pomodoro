@@ -14,6 +14,17 @@ h1 {
   margin-left: 20px;
 }
 
+#instructions {
+  background-color: rgba(216, 191, 216, 0.418);
+}
+
+.withBorder {
+  border-style: solid;
+  border-color: thistle;
+  border-radius: 10pt;
+  padding: 30pt;
+}
+
 #counter {
   font-size: xx-large;
 }
